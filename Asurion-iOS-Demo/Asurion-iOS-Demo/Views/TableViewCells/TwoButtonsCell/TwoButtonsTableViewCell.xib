@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TwoButtonsTableViewCell" rowHeight="125" id="KGk-i7-Jjw" customClass="TwoButtonsTableViewCell" customModule="Asurion_iOS_Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="389" height="125"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="389" height="125"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="s8J-ZS-WJO">
+                        <rect key="frame" x="20" y="10" width="349" height="105"/>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="s8J-ZS-WJO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="BLe-nr-Beh"/>
+                    <constraint firstItem="s8J-ZS-WJO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Xc9-JK-xEh"/>
+                    <constraint firstAttribute="trailing" secondItem="s8J-ZS-WJO" secondAttribute="trailing" constant="20" id="Xpu-nb-Lw2"/>
+                    <constraint firstAttribute="bottom" secondItem="s8J-ZS-WJO" secondAttribute="bottom" constant="10" id="xqv-pt-iGL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="stackView" destination="s8J-ZS-WJO" id="h2K-2f-NQv"/>
+            </connections>
+            <point key="canvasLocation" x="187.68115942028987" y="110.82589285714285"/>
+        </tableViewCell>
+    </objects>
+</document>

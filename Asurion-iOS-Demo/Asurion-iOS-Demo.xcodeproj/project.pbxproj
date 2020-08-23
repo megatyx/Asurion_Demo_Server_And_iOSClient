@@ -9,11 +9,38 @@
 /* Begin PBXBuildFile section */
 		012FD58D24F17BEE00F2FAD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012FD58C24F17BEE00F2FAD7 /* AppDelegate.swift */; };
 		012FD58F24F17BEE00F2FAD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012FD58E24F17BEE00F2FAD7 /* SceneDelegate.swift */; };
-		012FD59124F17BEE00F2FAD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012FD59024F17BEE00F2FAD7 /* ViewController.swift */; };
-		012FD59424F17BEE00F2FAD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012FD59224F17BEE00F2FAD7 /* Main.storyboard */; };
+		012FD59124F17BEE00F2FAD7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012FD59024F17BEE00F2FAD7 /* MainViewController.swift */; };
 		012FD59624F17BEF00F2FAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012FD59524F17BEF00F2FAD7 /* Assets.xcassets */; };
 		012FD59924F17BEF00F2FAD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012FD59724F17BEF00F2FAD7 /* LaunchScreen.storyboard */; };
-		012FD5A424F17BEF00F2FAD7 /* Asurion_iOS_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012FD5A324F17BEF00F2FAD7 /* Asurion_iOS_DemoTests.swift */; };
+		012FD5B024F1854900F2FAD7 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012FD5AF24F1854900F2FAD7 /* AppConfiguration.swift */; };
+		012FD5B324F186A200F2FAD7 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012FD5B224F186A200F2FAD7 /* APIKeys.swift */; };
+		012FD5B624F24E0500F2FAD7 /* OpenDayTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012FD5B524F24E0500F2FAD7 /* OpenDayTime.swift */; };
+		012FD5B824F24E1300F2FAD7 /* OpenDayEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012FD5B724F24E1300F2FAD7 /* OpenDayEnum.swift */; };
+		012FD5BA24F24F9B00F2FAD7 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012FD5B924F24F9B00F2FAD7 /* Pet.swift */; };
+		0157473D24F3011D00EC068F /* WorkingHoursTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0157473B24F3011D00EC068F /* WorkingHoursTableViewCell.swift */; };
+		0157473E24F3011D00EC068F /* WorkingHoursTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0157473C24F3011D00EC068F /* WorkingHoursTableViewCell.xib */; };
+		017EE93B24F2C63500E64E9E /* APIRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EE93A24F2C63500E64E9E /* APIRoutes.swift */; };
+		017EE95524F2D37B00E64E9E /* NetworkEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EE94724F2D37B00E64E9E /* NetworkEnums.swift */; };
+		017EE95624F2D37B00E64E9E /* NetworkURLProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EE94924F2D37B00E64E9E /* NetworkURLProtocols.swift */; };
+		017EE95724F2D37B00E64E9E /* NetworkHeadersProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EE94B24F2D37B00E64E9E /* NetworkHeadersProtocols.swift */; };
+		017EE95824F2D37B00E64E9E /* NetworkParametersProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EE94D24F2D37B00E64E9E /* NetworkParametersProtocols.swift */; };
+		017EE95924F2D37B00E64E9E /* NetworkRequestProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EE94F24F2D37B00E64E9E /* NetworkRequestProtocols.swift */; };
+		017EE95A24F2D37B00E64E9E /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EE95124F2D37B00E64E9E /* NetworkError.swift */; };
+		017EE95B24F2D37B00E64E9E /* NetworkableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EE95224F2D37B00E64E9E /* NetworkableProtocol.swift */; };
+		017EE95C24F2D37B00E64E9E /* NetworkOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EE95424F2D37B00E64E9E /* NetworkOptions.swift */; };
+		017EE95F24F2D4D100E64E9E /* EncodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EE95E24F2D4D100E64E9E /* EncodableExtensions.swift */; };
+		017EE96224F2D69900E64E9E /* APISession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EE96124F2D69900E64E9E /* APISession.swift */; };
+		017EE96524F2D6DA00E64E9E /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EE96424F2D6DA00E64E9E /* APIError.swift */; };
+		017FE5B324F2E34D000AA1BC /* TwoButtonsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017FE5B124F2E34D000AA1BC /* TwoButtonsTableViewCell.swift */; };
+		017FE5B424F2E34D000AA1BC /* TwoButtonsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017FE5B224F2E34D000AA1BC /* TwoButtonsTableViewCell.xib */; };
+		017FE5BC24F2EE40000AA1BC /* PetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017FE5BA24F2EE40000AA1BC /* PetTableViewCell.swift */; };
+		017FE5BD24F2EE40000AA1BC /* PetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017FE5BB24F2EE40000AA1BC /* PetTableViewCell.xib */; };
+		017FE5BF24F2F253000AA1BC /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017FE5BE24F2F253000AA1BC /* UIImageViewExtensions.swift */; };
+		017FE5C124F2F4B5000AA1BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017FE5C024F2F4B5000AA1BC /* Main.storyboard */; };
+		01B26F0724F272D00071B096 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B26F0624F272D00071B096 /* Constants.swift */; };
+		01B26F0A24F274060071B096 /* PetsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B26F0924F274060071B096 /* PetsTest.swift */; };
+		01B26F0C24F277020071B096 /* AppConfigurationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B26F0B24F277020071B096 /* AppConfigurationTest.swift */; };
+		01B26F1724F2BAA80071B096 /* MainVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B26F1624F2BAA80071B096 /* MainVCViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +57,41 @@
 		012FD58924F17BEE00F2FAD7 /* Asurion-iOS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asurion-iOS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		012FD58C24F17BEE00F2FAD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		012FD58E24F17BEE00F2FAD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		012FD59024F17BEE00F2FAD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		012FD59324F17BEE00F2FAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		012FD59024F17BEE00F2FAD7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		012FD59524F17BEF00F2FAD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		012FD59824F17BEF00F2FAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		012FD59A24F17BEF00F2FAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		012FD59F24F17BEF00F2FAD7 /* Asurion-iOS-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Asurion-iOS-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		012FD5A324F17BEF00F2FAD7 /* Asurion_iOS_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asurion_iOS_DemoTests.swift; sourceTree = "<group>"; };
 		012FD5A524F17BEF00F2FAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012FD5AF24F1854900F2FAD7 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		012FD5B224F186A200F2FAD7 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		012FD5B524F24E0500F2FAD7 /* OpenDayTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenDayTime.swift; sourceTree = "<group>"; };
+		012FD5B724F24E1300F2FAD7 /* OpenDayEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenDayEnum.swift; sourceTree = "<group>"; };
+		012FD5B924F24F9B00F2FAD7 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		0157473B24F3011D00EC068F /* WorkingHoursTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingHoursTableViewCell.swift; sourceTree = "<group>"; };
+		0157473C24F3011D00EC068F /* WorkingHoursTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkingHoursTableViewCell.xib; sourceTree = "<group>"; };
+		017EE93A24F2C63500E64E9E /* APIRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRoutes.swift; sourceTree = "<group>"; };
+		017EE94724F2D37B00E64E9E /* NetworkEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEnums.swift; sourceTree = "<group>"; };
+		017EE94924F2D37B00E64E9E /* NetworkURLProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkURLProtocols.swift; sourceTree = "<group>"; };
+		017EE94B24F2D37B00E64E9E /* NetworkHeadersProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHeadersProtocols.swift; sourceTree = "<group>"; };
+		017EE94D24F2D37B00E64E9E /* NetworkParametersProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkParametersProtocols.swift; sourceTree = "<group>"; };
+		017EE94F24F2D37B00E64E9E /* NetworkRequestProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestProtocols.swift; sourceTree = "<group>"; };
+		017EE95124F2D37B00E64E9E /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		017EE95224F2D37B00E64E9E /* NetworkableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkableProtocol.swift; sourceTree = "<group>"; };
+		017EE95424F2D37B00E64E9E /* NetworkOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOptions.swift; sourceTree = "<group>"; };
+		017EE95E24F2D4D100E64E9E /* EncodableExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtensions.swift; sourceTree = "<group>"; };
+		017EE96124F2D69900E64E9E /* APISession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISession.swift; sourceTree = "<group>"; };
+		017EE96424F2D6DA00E64E9E /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		017FE5B124F2E34D000AA1BC /* TwoButtonsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoButtonsTableViewCell.swift; sourceTree = "<group>"; };
+		017FE5B224F2E34D000AA1BC /* TwoButtonsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoButtonsTableViewCell.xib; sourceTree = "<group>"; };
+		017FE5BA24F2EE40000AA1BC /* PetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableViewCell.swift; sourceTree = "<group>"; };
+		017FE5BB24F2EE40000AA1BC /* PetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetTableViewCell.xib; sourceTree = "<group>"; };
+		017FE5BE24F2F253000AA1BC /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		017FE5C024F2F4B5000AA1BC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		01B26F0624F272D00071B096 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		01B26F0924F274060071B096 /* PetsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsTest.swift; sourceTree = "<group>"; };
+		01B26F0B24F277020071B096 /* AppConfigurationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurationTest.swift; sourceTree = "<group>"; };
+		01B26F1624F2BAA80071B096 /* MainVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +133,14 @@
 		012FD58B24F17BEE00F2FAD7 /* Asurion-iOS-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				01B26F0524F272C20071B096 /* Constants */,
+				012FD5AE24F1852500F2FAD7 /* Model */,
+				01B26F1124F2B9ED0071B096 /* AppFlow */,
+				01B26F0D24F2B9810071B096 /* Views */,
+				012FD5B124F1869200F2FAD7 /* NetworkingLayer */,
+				017EE95D24F2D4B800E64E9E /* Extensions */,
 				012FD58C24F17BEE00F2FAD7 /* AppDelegate.swift */,
 				012FD58E24F17BEE00F2FAD7 /* SceneDelegate.swift */,
-				012FD59024F17BEE00F2FAD7 /* ViewController.swift */,
-				012FD59224F17BEE00F2FAD7 /* Main.storyboard */,
 				012FD59524F17BEF00F2FAD7 /* Assets.xcassets */,
 				012FD59724F17BEF00F2FAD7 /* LaunchScreen.storyboard */,
 				012FD59A24F17BEF00F2FAD7 /* Info.plist */,
@@ -93,10 +151,265 @@
 		012FD5A224F17BEF00F2FAD7 /* Asurion-iOS-DemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				012FD5A324F17BEF00F2FAD7 /* Asurion_iOS_DemoTests.swift */,
+				01B26F0824F273E10071B096 /* ModelTests */,
 				012FD5A524F17BEF00F2FAD7 /* Info.plist */,
 			);
 			path = "Asurion-iOS-DemoTests";
+			sourceTree = "<group>";
+		};
+		012FD5AE24F1852500F2FAD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				012FD5B424F24DF000F2FAD7 /* TimeComponents */,
+				012FD5AF24F1854900F2FAD7 /* AppConfiguration.swift */,
+				012FD5B924F24F9B00F2FAD7 /* Pet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		012FD5B124F1869200F2FAD7 /* NetworkingLayer */ = {
+			isa = PBXGroup;
+			children = (
+				017EE94524F2D37B00E64E9E /* Networking */,
+				017EE93E24F2CD9700E64E9E /* API */,
+			);
+			path = NetworkingLayer;
+			sourceTree = "<group>";
+		};
+		012FD5B424F24DF000F2FAD7 /* TimeComponents */ = {
+			isa = PBXGroup;
+			children = (
+				012FD5B524F24E0500F2FAD7 /* OpenDayTime.swift */,
+				012FD5B724F24E1300F2FAD7 /* OpenDayEnum.swift */,
+			);
+			path = TimeComponents;
+			sourceTree = "<group>";
+		};
+		0157473A24F300FF00EC068F /* WorkingHoursCell */ = {
+			isa = PBXGroup;
+			children = (
+				0157473B24F3011D00EC068F /* WorkingHoursTableViewCell.swift */,
+				0157473C24F3011D00EC068F /* WorkingHoursTableViewCell.xib */,
+			);
+			path = WorkingHoursCell;
+			sourceTree = "<group>";
+		};
+		017EE93E24F2CD9700E64E9E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				017EE96324F2D6B000E64E9E /* Error */,
+				017EE96024F2D67C00E64E9E /* Session */,
+				017EE93A24F2C63500E64E9E /* APIRoutes.swift */,
+				012FD5B224F186A200F2FAD7 /* APIKeys.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		017EE94524F2D37B00E64E9E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				017EE95224F2D37B00E64E9E /* NetworkableProtocol.swift */,
+				017EE94624F2D37B00E64E9E /* Enums */,
+				017EE94824F2D37B00E64E9E /* URL */,
+				017EE94A24F2D37B00E64E9E /* Headers */,
+				017EE94C24F2D37B00E64E9E /* Params */,
+				017EE94E24F2D37B00E64E9E /* Request */,
+				017EE95024F2D37B00E64E9E /* Errors */,
+				017EE95324F2D37B00E64E9E /* StructsAndOptions */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		017EE94624F2D37B00E64E9E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				017EE94724F2D37B00E64E9E /* NetworkEnums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		017EE94824F2D37B00E64E9E /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				017EE94924F2D37B00E64E9E /* NetworkURLProtocols.swift */,
+			);
+			path = URL;
+			sourceTree = "<group>";
+		};
+		017EE94A24F2D37B00E64E9E /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				017EE94B24F2D37B00E64E9E /* NetworkHeadersProtocols.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		017EE94C24F2D37B00E64E9E /* Params */ = {
+			isa = PBXGroup;
+			children = (
+				017EE94D24F2D37B00E64E9E /* NetworkParametersProtocols.swift */,
+			);
+			path = Params;
+			sourceTree = "<group>";
+		};
+		017EE94E24F2D37B00E64E9E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				017EE94F24F2D37B00E64E9E /* NetworkRequestProtocols.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		017EE95024F2D37B00E64E9E /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				017EE95124F2D37B00E64E9E /* NetworkError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		017EE95324F2D37B00E64E9E /* StructsAndOptions */ = {
+			isa = PBXGroup;
+			children = (
+				017EE95424F2D37B00E64E9E /* NetworkOptions.swift */,
+			);
+			path = StructsAndOptions;
+			sourceTree = "<group>";
+		};
+		017EE95D24F2D4B800E64E9E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				017EE95E24F2D4D100E64E9E /* EncodableExtensions.swift */,
+				017FE5BE24F2F253000AA1BC /* UIImageViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		017EE96024F2D67C00E64E9E /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				017EE96124F2D69900E64E9E /* APISession.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		017EE96324F2D6B000E64E9E /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				017EE96424F2D6DA00E64E9E /* APIError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		017EE96624F2E0CE00E64E9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				01B26F1624F2BAA80071B096 /* MainVCViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		017EE96724F2E0DE00E64E9E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				012FD59024F17BEE00F2FAD7 /* MainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		017FE5B824F2EE1B000AA1BC /* TwoButtonsCell */ = {
+			isa = PBXGroup;
+			children = (
+				017FE5B124F2E34D000AA1BC /* TwoButtonsTableViewCell.swift */,
+				017FE5B224F2E34D000AA1BC /* TwoButtonsTableViewCell.xib */,
+			);
+			path = TwoButtonsCell;
+			sourceTree = "<group>";
+		};
+		017FE5B924F2EE29000AA1BC /* PetCell */ = {
+			isa = PBXGroup;
+			children = (
+				017FE5BA24F2EE40000AA1BC /* PetTableViewCell.swift */,
+				017FE5BB24F2EE40000AA1BC /* PetTableViewCell.xib */,
+			);
+			path = PetCell;
+			sourceTree = "<group>";
+		};
+		01B26F0524F272C20071B096 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				01B26F0624F272D00071B096 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		01B26F0824F273E10071B096 /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				01B26F0924F274060071B096 /* PetsTest.swift */,
+				01B26F0B24F277020071B096 /* AppConfigurationTest.swift */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		01B26F0D24F2B9810071B096 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01B26F0E24F2B9B00071B096 /* TableViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01B26F0E24F2B9B00071B096 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				0157473A24F300FF00EC068F /* WorkingHoursCell */,
+				017FE5B924F2EE29000AA1BC /* PetCell */,
+				017FE5B824F2EE1B000AA1BC /* TwoButtonsCell */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		01B26F1124F2B9ED0071B096 /* AppFlow */ = {
+			isa = PBXGroup;
+			children = (
+				01B26F1224F2BA1A0071B096 /* ReusableViews */,
+				01B26F1324F2BA2E0071B096 /* MainFlow */,
+			);
+			path = AppFlow;
+			sourceTree = "<group>";
+		};
+		01B26F1224F2BA1A0071B096 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		01B26F1324F2BA2E0071B096 /* MainFlow */ = {
+			isa = PBXGroup;
+			children = (
+				017FE5C024F2F4B5000AA1BC /* Main.storyboard */,
+				01B26F1424F2BA3E0071B096 /* ViewControllers */,
+			);
+			path = MainFlow;
+			sourceTree = "<group>";
+		};
+		01B26F1424F2BA3E0071B096 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				01B26F1524F2BA6C0071B096 /* MainView */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		01B26F1524F2BA6C0071B096 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				017EE96724F2E0DE00E64E9E /* ViewController */,
+				017EE96624F2E0CE00E64E9E /* ViewModel */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +493,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017FE5C124F2F4B5000AA1BC /* Main.storyboard in Resources */,
 				012FD59924F17BEF00F2FAD7 /* LaunchScreen.storyboard in Resources */,
+				017FE5BD24F2EE40000AA1BC /* PetTableViewCell.xib in Resources */,
 				012FD59624F17BEF00F2FAD7 /* Assets.xcassets in Resources */,
-				012FD59424F17BEE00F2FAD7 /* Main.storyboard in Resources */,
+				017FE5B424F2E34D000AA1BC /* TwoButtonsTableViewCell.xib in Resources */,
+				0157473E24F3011D00EC068F /* WorkingHoursTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +516,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012FD59124F17BEE00F2FAD7 /* ViewController.swift in Sources */,
+				017EE95A24F2D37B00E64E9E /* NetworkError.swift in Sources */,
+				017EE95924F2D37B00E64E9E /* NetworkRequestProtocols.swift in Sources */,
+				012FD59124F17BEE00F2FAD7 /* MainViewController.swift in Sources */,
+				017EE95C24F2D37B00E64E9E /* NetworkOptions.swift in Sources */,
+				012FD5BA24F24F9B00F2FAD7 /* Pet.swift in Sources */,
+				017EE93B24F2C63500E64E9E /* APIRoutes.swift in Sources */,
+				017EE95824F2D37B00E64E9E /* NetworkParametersProtocols.swift in Sources */,
+				017EE95B24F2D37B00E64E9E /* NetworkableProtocol.swift in Sources */,
+				012FD5B324F186A200F2FAD7 /* APIKeys.swift in Sources */,
+				017EE95F24F2D4D100E64E9E /* EncodableExtensions.swift in Sources */,
 				012FD58D24F17BEE00F2FAD7 /* AppDelegate.swift in Sources */,
+				017EE95624F2D37B00E64E9E /* NetworkURLProtocols.swift in Sources */,
+				012FD5B624F24E0500F2FAD7 /* OpenDayTime.swift in Sources */,
+				0157473D24F3011D00EC068F /* WorkingHoursTableViewCell.swift in Sources */,
+				017FE5BC24F2EE40000AA1BC /* PetTableViewCell.swift in Sources */,
+				017EE95724F2D37B00E64E9E /* NetworkHeadersProtocols.swift in Sources */,
+				012FD5B024F1854900F2FAD7 /* AppConfiguration.swift in Sources */,
 				012FD58F24F17BEE00F2FAD7 /* SceneDelegate.swift in Sources */,
+				017FE5B324F2E34D000AA1BC /* TwoButtonsTableViewCell.swift in Sources */,
+				017FE5BF24F2F253000AA1BC /* UIImageViewExtensions.swift in Sources */,
+				012FD5B824F24E1300F2FAD7 /* OpenDayEnum.swift in Sources */,
+				01B26F1724F2BAA80071B096 /* MainVCViewModel.swift in Sources */,
+				01B26F0724F272D00071B096 /* Constants.swift in Sources */,
+				017EE95524F2D37B00E64E9E /* NetworkEnums.swift in Sources */,
+				017EE96224F2D69900E64E9E /* APISession.swift in Sources */,
+				017EE96524F2D6DA00E64E9E /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +549,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012FD5A424F17BEF00F2FAD7 /* Asurion_iOS_DemoTests.swift in Sources */,
+				01B26F0C24F277020071B096 /* AppConfigurationTest.swift in Sources */,
+				01B26F0A24F274060071B096 /* PetsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +565,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		012FD59224F17BEE00F2FAD7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				012FD59324F17BEE00F2FAD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		012FD59724F17BEF00F2FAD7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
